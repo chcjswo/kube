@@ -11,4 +11,5 @@ spec:
     - name: nginx-container
       image: nginx
       ports:
-        - containerPort: 8088
+        - containerPort: 80
+      imagePullPolicy: Always
